@@ -1,12 +1,17 @@
 body{
-    /*height: 100vh;*/
     width: 100%;
     background-image: url("./img/main-bg.jpeg");
     font-family: sans-serif;
     font-weight: bold;
-    /*background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+a{
+    color: white;
+}
+
+/*Top Section*/
 
 .top_section{
     width: 100%;
@@ -47,8 +52,7 @@ ul{
 
 nav a:link{
     text-decoration: none;
-    font-size: 32px;
-    color: white;
+    font-size: 40px;
 }
 
 .social{
@@ -56,12 +60,7 @@ nav a:link{
     align-items: center;
 }
 
-/*.HAM{
-    border-style: solid;
-    border-radius: 50%;
-}*/
-
-@media(min-width: 960px) {
+@media(min-width: 760px) {
     nav{
         display: flex;
     }
@@ -74,3 +73,53 @@ nav a:link{
         display: none;
     }
 }
+
+/*Main Section*/
+
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+    /*height: 800px;*/
+    height: 100vh;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title h1{
+    font-size: 100px;
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button_dwn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.button_dwn img{
+    height: 30px;
+    width: 30px;
+}
+
+.nav_down{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+
