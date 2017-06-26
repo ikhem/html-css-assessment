@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    /*height: 100vh;*/
     background-image: url("./img/main-bg.jpeg");
     font-family: sans-serif;
     font-weight: bold;
@@ -76,13 +77,20 @@ nav a:link{
 
 /*Main Section*/
 
+.bottom_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
 .main_section{
     display: flex;
     justify-content: center;
     align-items: center;
     /*width: 100%;*/
     /*height: 800px;*/
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .title{
@@ -119,7 +127,7 @@ nav a:link{
 .nav_down{
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
 }
 
 
